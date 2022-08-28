@@ -11,7 +11,6 @@ public class RepositorioGenerico<R> implements IRepositorioGenerico<R> {
 
 	protected List<R> elementos;
 
-	//@SuppressWarnings("unchecked")
 	public RepositorioGenerico() {
        
         this.elementos = new ArrayList<>();
